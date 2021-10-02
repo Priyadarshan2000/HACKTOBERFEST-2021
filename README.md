@@ -1,4 +1,4 @@
-
+  <h1 align="center"><img src='https://github.com/Priyadarshan2000/Awesome-Python-Scripts/blob/main/logo-hacktoberfest-full.f42e3b1.svg'></h1>
 
 
 
@@ -9,7 +9,7 @@
 :diamonds: Hacktoberfest is a month-long challenge. It happens every year in the month of October.
   Hacktoberfest is open to everyone and it marks the celebration of **Open Source.** It's the biggest Open Source event that encourages newbies to participate in Open Source and     create their 1st meaningful PR.
   
-  <h1 align="center"><img src='#'></h1>
+  <h1 align="center"><img src='https://github.com/Priyadarshan2000/Awesome-Python-Scripts/blob/main/octocat-wave-dribbble.gif'></h1>
 
 🏆 🏆 **Rewards :** 🏆🏆
 
@@ -127,7 +127,7 @@ This year, the first 55,000 participants can earn a T-shirt.
 ####  That's it. You have opened a PR. Wait for it to get merged. :partying_face: :partying_face: :partying_face:
 
 ## :confetti_ball: :confetti_ball: :fireworks: :fireworks: Thanks for  your  Contribution!! :collision: :collision: :collision: :cupid: :cupid:
-<img align="center" alt="GIF" src="#" width="500" height="320" />
+<img align="center" alt="GIF" src="https://github.com/Priyadarshan2000/Awesome-Python-Scripts/blob/main/1_IRGHmiGsa16stedQvIaZfw.gif" width="500" height="320" />
 
 ##### :mailbox_with_no_mail: :mailbox_with_no_mail: You can connect for any query (or can also ask by raising issue):grey_exclamation: :grey_exclamation: :grey_exclamation:
 
@@ -136,4 +136,6 @@ This year, the first 55,000 participants can earn a T-shirt.
 <a href="priyadarshanghosh26@gmail.com"><img src="https://img.icons8.com/fluency/48/000000/gmail-new.png"/></a>
 <a href='https://github.com/Priyadarshan2000/'><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/> </a>
 ![](https://visitor-badge.glitch.me/badge?page_id=Priyadarshan2000.Awesome-Python-Scripts)
+   
 
+<img align='center'  height="70" alt="Thanks" width="100%" src="https://github.com/Priyadarshan2000/Priyadarshan2000/blob/master/Ending.svg"/> 
