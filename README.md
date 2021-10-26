@@ -1,7 +1,5 @@
   <h1 align="center"><img src='https://github.com/Priyadarshan2000/Awesome-Python-Scripts/blob/main/picture/logo-hacktoberfest-full.f42e3b1.svg'></h1>
 
-
-
 # Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> HACKTOBERFEST 2021 IS HERE :bangbang::bangbang::bangbang:
 
 :performing_arts: **What is Hacktoberfest ?**
@@ -83,7 +81,7 @@ This year, the first 55,000 participants can earn a T-shirt.
 
 
 ``$ cd <cloned-folder>`` 
-``$ git remote add upstream https://github.com/Priyadarshan2000/Awesome-Python-Scripts.git ``
+``$ git remote add upstream https://github.com/Priyadarshan2000/HACKTOBERFEST-2021.git ``
 ******
 
 #### 4️⃣ Now synchronize your forked repo:
