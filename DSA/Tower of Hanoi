@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include<math.h>
+void toh(int, char, char, char);
+int main()
+{
+    int n,result;
+    printf("Enter the number of disks : ");
+    scanf("%d", &n);
+    printf("The sequence of moves involved in the Tower of Hanoi are :\n");
+    result=pow(2,n)-1;
+    printf("the result should be => %d\n",result);
+    printf("----------------------------------------");
+    toh(n, 'A', 'C', 'B');
+    
+    return 0;
+}
+ 
+void toh(int n, char source, char intermediate, char destination)
+{
+	int static count=1;
+    if (n == 1)
+    {
+        printf("\n%d>>> Move disk 1 from rod %c to rod %c",count,source, destination);
+        count++;
+       
+        
+    }
+    else
+    {
+	
+    toh(n - 1,source,destination,intermediate);
+    toh(1,source,intermediate,destination);
+    toh(n - 1,intermediate,source,destination);
+}
+
+}
