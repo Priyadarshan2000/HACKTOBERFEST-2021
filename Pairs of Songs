@@ -1,0 +1,47 @@
+/*
+    Problem Name: Pairs of Songs With Total Durations Divisible by 60.
+    You are given a list of songs where the ith song has a duration of time[i] 
+    seconds.
+    Return the number of pairs of songs for which their total duration in 
+    seconds is divisible by 60. Formally, we want the number of indices i, j 
+    such that i < j with (time[i] + time[j]) % 60 == 0.
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int numPairsDivisibleBy60(vector<int>& time) 
+{
+
+    unordered_map<int,int>m;
+    for(int i=0;i<time.size();++i)
+    {
+        time[i]%=60;
+        m[time[i]]++;
+    }
+
+    int cnt=0;
+    for(auto it:m)
+    {
+        if(it.first==0 || it.first==30)
+            cnt+=((it.second-1)*(it.second))/2;
+        else if(it.first<30 && m.count(60-it.first))
+            cnt+=(m[it.first]*m[60-it.first]);
+    }
+    return cnt;
+}
+
+int main()
+{
+    vector<int>time;
+    int n;
+    cin>>n;
+    for(int i=0;i<n;++i)
+    {
+        int data;
+        cin>>data;
+        time.push_back(data);
+    }
+    cout<<numPairsDivisibleBy60(time);
+    return 0;
+}
