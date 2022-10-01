@@ -1,5 +1,6 @@
-  <h1 align="center"><img src='https://github.com/Priyadarshan2000/Awesome-Python-Scripts/blob/main/picture/logo-hacktoberfest-full.f42e3b1.svg'></h1>
   
+  ![image](https://user-images.githubusercontent.com/62868878/193399597-df087ffd-c518-4afe-a6a0-1b768fbeda97.png)
+
   
 # Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> HACKTOBERFEST 2021 IS HERE :bangbang::bangbang::bangbang:
 
@@ -25,7 +26,7 @@ Navigate to the link below 👇 👇 and follow the instructions ✔️ ✔️
 To add your contributions towards opensource community and grab the oppurtunity:smiley: :smiley::smiley: 
 
 Then lets start with this repository.
-##  <center>:sunglasses: :sunglasses: Python Scripts :sunglasses: :sunglasses: </center> (Collection of Python Scripts  :notebook_with_decorative_cover: :notebook_with_decorative_cover:)
+
 
 ### Head down :arrow_down: :arrow_down: :arrow_down: to see how to get started with the repo and follow the guidelines :dart: :dart: :dart:
 
