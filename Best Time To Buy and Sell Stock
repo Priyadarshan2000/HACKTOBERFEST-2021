@@ -1,0 +1,87 @@
+/* 
+    Problem Name: Best Time to Buy and Sell Stock
+    You are given an array prices where prices[i] is the price of a given stock 
+    on the ith day.
+    You want to maximize your profit by choosing a single day to buy one 
+    stock and choosing a different day in the future to sell that stock.
+
+    Return the maximum profit you can achieve from this transaction. 
+    If you cannot achieve any profit, return 0
+
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int maxProfit(vector<int>&prices)
+{
+    if(prices.size()==0 || prices.size()==1)
+        return 0;
+
+    /*Naive Solution*/
+    /*vector<int>temp;
+    temp=prices;
+    sort(temp.begin(),temp.end());
+
+    int maxP=INT_MIN;
+    for(int i=0;i<temp.size()-1;++i)
+    {
+        //finding smallest element's location in original array.
+        int loc=0;
+        for(int j=0;j<prices.size();++j)
+        {
+            if(prices[j]==temp[i])
+            {
+                loc=j;
+                break;
+            }
+        }
+
+        for(int k=loc+1;k<prices.size();++k)
+        {
+            if(prices[k]-prices[loc]>maxP)
+                maxP=prices[k]-prices[loc];
+        }
+    }
+    if(maxP<0)
+        return 0;
+    return maxP;*/
+
+    /*Brute Force*/
+    /*int maxP=0,curr_sum=0;
+    for(int i=0;i<prices.size();++i)
+    {
+            curr_sum-=prices[i];
+            if(maxP<curr_sum)
+                maxP=curr_sum;
+            if(curr_sum<0)
+                curr_sum=0; 
+              
+    }
+    return maxP;*/
+
+    /*Best Optimised*/
+    int maxP=0,minCost=INT_MAX;
+    for(int i=0;i<prices.size();++i)
+    {
+        if(prices[i]<minCost)
+            minCost=prices[i];
+        if(maxP<prices[i]-minCost)
+            maxP=prices[i]-minCost;
+    }
+    return maxP;
+}
+int main()
+{
+    vector<int>prices;
+    int n;
+    cin>>n;
+    for(int i=0;i<n;++i)
+    {
+        int data;
+        cin>>data;
+        prices.push_back(data);
+    }
+    cout<<maxProfit(prices);
+    return 0;
+}
