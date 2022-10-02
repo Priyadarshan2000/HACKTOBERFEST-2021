@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+html{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom right, bisque, rgb(174, 238, 229));
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+h2{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.card{
+    background-color: transparent;
+}
+h3{
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+}
+.btn{
+    justify-content: center;
+}
